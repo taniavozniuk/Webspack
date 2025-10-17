@@ -6,8 +6,8 @@ function App() {
     <>
       <Header />
       <div className="icons">
-        <img className="icon" src="/src/images/dots.png" />
-        <img className="icon"  src="\src\images\Group13.svg" />
+        <img className="icon" src="/images/dots.png" />
+        <img className="icon"  src="/images/Group13.svg" />
       </div>
     </>
   );

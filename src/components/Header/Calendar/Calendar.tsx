@@ -31,7 +31,7 @@ export const CustomDatePicker = ({
       <div className="date-picker-input__icons">
         {value && (
           <img
-            src="src/images/delete.svg"
+            src="/images/delete.svg"
             alt="clear"
             className="date-picker-input__icon"
             onClick={(e) => {
@@ -41,7 +41,7 @@ export const CustomDatePicker = ({
           />
         )}
         <img
-          src="src/images/calendar.svg"
+          src="/images/calendar.svg"
           alt="calendar"
           className="date-picker-input__icon"
         />
