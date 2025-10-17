@@ -1,6 +1,5 @@
 body {
-  background-image: url("/images/Vector1.svg"),
-    url("/images/Vector2.svg");
+  background-image: url("/images/Vector1.svg"), url("/images/Vector2.svg");
   background-repeat: no-repeat;
   background-position: top left, bottom right;
   background-attachment: fixed;
@@ -17,6 +16,6 @@ body {
 
 @font-face {
   font-family: "Roboto";
-  src: url("/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf")
+  src: url("/public/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf")
     format("truetype");
 }

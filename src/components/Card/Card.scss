@@ -1,0 +1,54 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapContent {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todayUpdate {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+}
+
+.wrapImg {
+  display: flex;
+  gap: 6px;
+  margin-top: 7px;
+}
+
+.like-heart {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0;
+}
+
+.UploadWrap {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.uploadDate {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 12px;
+  margin: 0;
+}
