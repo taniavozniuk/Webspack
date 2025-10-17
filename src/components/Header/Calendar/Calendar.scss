@@ -1,0 +1,52 @@
+.date-picker-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 6px 10px;
+  width: 162px;
+  background: #fff;
+  position: relative;
+  cursor: pointer;
+  box-sizing: border-box;
+
+  &__field {
+    border: none;
+    flex: 1;
+    background: transparent;
+    font-size: 14px;
+    cursor: pointer;
+    height: 100%;
+    padding-right: 40px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__icons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 6px;
+    background-color: #ebebeb;
+  }
+
+  &__icon {
+    width: auto;
+    cursor: pointer;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &--clear {
+      margin-right: 4px;
+    }
+  }
+}

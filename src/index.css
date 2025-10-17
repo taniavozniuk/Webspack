@@ -1,0 +1,22 @@
+body {
+  background-image: url("/src/images/Vector1.svg"),
+    url("/src/images/Vector2.svg");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-attachment: fixed;
+  /* background-size: 689px auto, 314px auto; */
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/public/fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/public/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf")
+    format("truetype");
+}
