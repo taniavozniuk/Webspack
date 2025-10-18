@@ -1,6 +1,6 @@
 .main {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  // grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   justify-content: center;
   padding: 20px;
@@ -8,15 +8,55 @@
   margin: 0 auto;
 }
 
+.grid-WrapperCard {
+  display: block;
+}
+
+.list-WrapperCard {
+  display: flex;
+  gap: 160px;
+}
+
+.grid-view {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.list-view {
+  grid-template-columns: 1fr;
+}
+
+.list-img {
+  width: 86px;
+  height: 86px;
+}
+
 .card {
   display: flex;
+}
+
+.grid-card {
   flex-direction: column;
 }
 
+.list-card {
+  justify-content: space-around;
+  flex-direction: row;
+}
+
 .wrapContent {
-  padding: 12px;
   display: flex;
   justify-content: space-between;
+}
+
+.list-wrapContent {
+  gap: 160px;
+}
+
+.grid-wrapContent {
+  padding: 12px;
+}
+
+.list-TodayWrap {
 }
 
 .todayUpdate {
@@ -27,9 +67,16 @@
 }
 
 .wrapImg {
-  display: flex;
   gap: 6px;
   margin-top: 7px;
+}
+
+.grid-wrapImg {
+  display: block;
+}
+
+.list-wrapImg {
+  display: flex;
 }
 
 .like-heart {
@@ -39,11 +86,39 @@
   margin: 0;
 }
 
+.list-like-heart {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0 0 8px 0;
+}
+
+.grid-like-heart {
+  margin: 0;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+}
+
 .UploadWrap {
-  margin-top: 24px;
+  align-items: center;
+}
+
+.grid-UploadWrap {
+  padding: 0 12px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+}
+
+.list-UploadWrap {
+  padding: 12px 0 0 0;
+}
+
+.list-UploadWrap {
+  display: block;
+  align-items: end;
+  text-align: end;
+  justify-content: end;
 }
 
 .uploadDate {
@@ -51,4 +126,9 @@
   font-weight: 500;
   font-size: 12px;
   margin: 0;
+}
+
+.img {
+  width: 18px;
+  height: 18px;
 }
